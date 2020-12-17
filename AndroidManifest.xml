@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogIn1">
+        <activity android:name=".SearchDocActivity"></activity>
+        <activity android:name=".SearchMedsActivity" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/Theme.LogIn1.NoActionBar" />
+
+        <service
+            android:name=".Monitoring"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ViewDietActivity2" />
+        <activity android:name=".ModifyDietActivity2" />
+        <activity android:name=".ForgotPassActivity2" />
+        <activity android:name=".DietActivity2" />
+        <activity android:name=".MenuActivity2" />
+        <activity android:name=".LoginActivity2" />
+        <activity android:name=".personal_info_main" />
+        <activity android:name=".personal_Info" />
+        <activity android:name=".personal_info_view" />
+        <activity android:name=".MedicationActivity" />
+        <activity android:name=".ChosenMedActivity" />
+        <activity android:name=".Modify_vitals" />
+        <activity android:name=".Vitals_main" />
+        <activity android:name=".Vitals_view" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

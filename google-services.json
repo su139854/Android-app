@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618827279089",
+    "firebase_url": "https://elevatehealth-e5465.firebaseio.com",
+    "project_id": "elevatehealth-e5465",
+    "storage_bucket": "elevatehealth-e5465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618827279089:android:563fc9160fc379e6795750",
+        "android_client_info": {
+          "package_name": "elevate.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618827279089-8890cbiav2tscjferibbehofcnrq6660.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5f79isDTUCKue0_Kpg_FW8KpoN7BUThE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618827279089-8890cbiav2tscjferibbehofcnrq6660.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

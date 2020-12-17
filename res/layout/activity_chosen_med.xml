@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <TextView android:id="@+id/chosen_med_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp" />
+    <TextView android:id="@+id/chosen_med_prescribed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <TextView android:id="@+id/chosen_med_taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <TextView android:id="@+id/chosen_med_scheduledtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <TextView android:id="@+id/chosen_med_expiration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <Button android:id="@+id/button_prescribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prescribeMedication"
+        android:text="Prescribe Medication"
+
+        android:visibility="visible"/>
+    <Button android:id="@+id/button_take_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeMedication"
+        android:text="Take Medication"
+
+        android:visibility="invisible"/>
+    <Button android:id="@+id/button_renew_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="renewMedication"
+        android:text="Renew Medication"
+
+        android:visibility="invisible"/>
+    <Button android:id="@+id/button_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="removeMedication"
+        android:text="Remove Medication"
+
+        android:visibility="invisible"/>
+</LinearLayout>
